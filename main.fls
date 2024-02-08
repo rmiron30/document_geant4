@@ -1,9 +1,9 @@
-PWD /home/diagpc/Miron/Geant4/document_geant4
+PWD /home/raluca/geant4/document_geant4
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/diagpc/Miron/Geant4/document_geant4/main.tex
+INPUT /home/raluca/geant4/document_geant4/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -934,7 +934,7 @@ INPUT ./images/task4/FWTM_all.pdf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
-INPUT /home/diagpc/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
+INPUT /home/raluca/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
