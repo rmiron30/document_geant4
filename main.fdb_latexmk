@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1709639391 "/home/rmiron/geant4/document_geant4/main.tex" "/home/rmiron/geant4/document_geant4/main.pdf" "main" 1709639402
+["pdflatex"] 1709714891 "/home/rmiron/geant4/document_geant4/main.tex" "/home/rmiron/geant4/document_geant4/main.pdf" "main" 1709714902
   "/etc/texmf/web2c/texmf.cnf" 1703079364 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rmiron/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1703080034 11524 e52febdd1848e8dc47c0437a8a84aa9a ""
-  "/home/rmiron/geant4/document_geant4/main.aux" 1709639402 9613 fe1fe0675d6638fee21f9d9018b6d9cc ""
-  "/home/rmiron/geant4/document_geant4/main.tex" 1709639391 29761 2295b9068b33873001cf9a801638f8cd ""
+  "/home/rmiron/geant4/document_geant4/main.aux" 1709714902 10000 7282a073ad6be667eb811208a87b5166 ""
+  "/home/rmiron/geant4/document_geant4/main.tex" 1709714880 30202 164d13ca5da9a6432248eeb5f3415cdc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -155,13 +155,15 @@
   "images/task4/LYSO_2mm.pdf" 1707396523 83101 497806a688d083d6d037bfa37586f99f ""
   "images/task4/logsurface_CsI_10_2.png" 1707396523 103066 31bd209578fc2c58fe1fe50988b328e6 ""
   "images/task4/surface_CsI_10_2.png" 1707396523 66817 3712153fb12b25fdaec1dc2d2d4a2a74 ""
-  "main.aux" 1709639402 9613 fe1fe0675d6638fee21f9d9018b6d9cc "pdflatex"
-  "main.out" 1709639402 864 f590196f2b11d08ecaa80526095288d0 "pdflatex"
-  "main.tex" 1709639391 29761 2295b9068b33873001cf9a801638f8cd ""
+  "images/task5/LYSO_3MeV.pdf" 1709642438 22127 9a62e7718aa7d4bc053b397efda862b8 ""
+  "images/task5/lyso_fwtm.jpg" 1709642649 74219 12b0344b8db5453b1ca29f5f4881d21f ""
+  "main.aux" 1709714902 10000 7282a073ad6be667eb811208a87b5166 "pdflatex"
+  "main.out" 1709714902 864 f590196f2b11d08ecaa80526095288d0 "pdflatex"
+  "main.tex" 1709714880 30202 164d13ca5da9a6432248eeb5f3415cdc ""
   (generated)
-  "main.aux"
   "main.out"
-  "main.pdf"
   "/home/rmiron/geant4/document_geant4/main.pdf"
   "/home/rmiron/geant4/document_geant4/main.log"
   "main.log"
+  "main.aux"
+  "main.pdf"
