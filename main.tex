@@ -757,6 +757,10 @@ Find the markers which define FWTM and FWHM and integrate between them, then com
 
 The purpose is to see how much energy is deposited in the region of interest and how much is left out (the noise).
 
+Simulatins are done for the data located on the server in the folder
+
+ \verb|/home/raluca/tasks_geant4/scintillator_task/data_sim|.
+
 To be continued with super gaussian fit.
 
 % Ar trebui calculata en depusa. Pentru fiecare FWTM si FWHM calculat, sa se calculeze si energia depusa. Rezolutie vs eficienta. Incearca super gaussian fit.
@@ -765,14 +769,43 @@ To be continued with super gaussian fit.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{images/task5/LYSO_3MeV.pdf}
+    \includegraphics[width=0.7\linewidth]{images/task5/LYSO_3MeV.pdf}
     \caption{Full width at tenth maximum for LYSO at 3 MeV energy.}
     % \label{fig:bgo05mm}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{images/task5/lyso_fwtm.jpg}
+    \includegraphics[width=0.7\linewidth]{images/task5/lyso_fwtm.jpg}
     \caption{The green area represents the area where the deposited energy is calculated.}
     % \label{fig:bgo05mm}
 \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task5/FWHM_all.pdf}
+    \caption{Full width at half maximum for all cases.}
+    % \label{fig:bgo05mm}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task5/FWTM_all.pdf}
+    \caption{Full width at tenth maximum for all cases.}
+    % \label{fig:bgo05mm}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task5/dep_ten.pdf}
+    \caption{The ratio between the deposited energy in FWTM zone and the total deposited energy.}
+    % \label{fig:bgo05mm}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task5/scintillations_all.pdf}
+    \caption{The total number of scintillations produced for each energy and detector thickness. 
+    The incident beam contains $10^7$ photons.}
+    % \label{fig:bgo05mm}
+\end{figure}
+
+
 \end{document}
