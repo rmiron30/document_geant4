@@ -820,4 +820,96 @@ To be continued with super gaussian fit.
     % \label{fig:bgo05mm}
 \end{figure}
 
+\subsection{Task 6. Energy deposited in FWTM region - improved. Intrinsec efficiency (March)}
+
+For each computed FWHM and FWTM, the deposited energy was computed. The binning is from 1 to GetNbins + 1 (the correct formula).
+
+Also, we noticed that the chosen thickness was wrong in the previous chapter. Previously, 0.5, 1 and 2 mm were actually 1, 2 and 4. 
+We discovered this also after checking the number of entries analitically with the formula $I(x) = I_0 e^{-\mu x}$.
+
+Here will be shown the correct results. 
+
+The purpose is to see how much energy is deposited in the region of interest and how much is left out (the noise). 
+
+Besides FW at 10th max, we also studied 20th max and 30th max. We want to find the region with $\approx$ 90\% of the deposited energy. 
+
+Simulatins are done for the data located on the server in the folder
+
+ \verb|/home/raluca/tasks_geant4/scintillator_task/sim_edep_ten|.
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/FWHM_all.pdf}
+    \caption{The Full width at half maximum for all cases. }
+\end{figure}
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/FWTM_all.pdf}
+    \caption{The Full width at tenth maximum for all cases. }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/dep_ten.pdf}
+    \caption{The ratio between the deposited energy in FWTM zone and the total deposited energy.}
+\end{figure}
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/FW20M_all.pdf}
+    \caption{The Full width at twentieth maximum for all cases. }
+\end{figure}
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/Figure_1.png}
+    \caption{The Full width at twentieth maximum for LYSO, 3 MeV, 2mm. }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/dep_twenty.pdf}
+    \caption{The ratio between the deposited energy in FW20M zone and the total deposited energy.}
+\end{figure}
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/FW30M_all.pdf}
+    \caption{The Full width at thirtieth maximum for all cases. }
+\end{figure}
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/Figure_1.png}
+    \caption{The Full width at thirtieth maximum for LYSO, 3 MeV, 2mm. }
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/dep_Thirty.pdf}
+    \caption{The ratio between the deposited energy in FW30M zone and the total deposited energy.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/edep_versus_total.pdf}
+    \caption{The ratio between the deposited energy and the total energy of the beam (the number of photons multiplied by the incident energy).}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/scintillations_all.pdf}
+    \caption{The total number of scintillations produced for each energy and detector thickness. 
+    The incident beam contains $10^7$ photons.}
+    % \label{fig:bgo05mm}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/task6/intrinsic_eff.pdf}
+    \caption{The intrinsic efficiency (the number of entries divided by the total number of incident photons).}
+    % \label{fig:bgo05mm}
+\end{figure}
+
 \end{document}
